@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "EcoShift GreenCart",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["<all_urls>"]
+}

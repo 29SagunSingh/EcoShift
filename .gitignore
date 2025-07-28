@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+*.env
+
+# macOS and Windows
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/
+
+# Streamlit app logs
+*.log
+
+# Python notebooks
+.ipynb_checkpoints/
+
+# Deployment artifacts
+*.pyc
+*.pkl

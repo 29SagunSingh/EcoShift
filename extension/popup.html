@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>GreenCart Score</h2>
+
+  <label for="packaging">Packaging:</label>
+  <select id="packaging">
+    <option value="plastic">Plastic</option>
+    <option value="recyclable">Recyclable</option>
+    <option value="biodegradable">Biodegradable</option>
+  </select>
+
+  <label for="transport">Transport:</label>
+  <select id="transport">
+    <option value="imported">Imported</option>
+    <option value="local">Local</option>
+  </select>
+
+  <label for="certifications">Certifications:</label><br>
+  <input type="checkbox" name="certs" value="FSC"> FSC<br>
+  <input type="checkbox" name="certs" value="Fair Trade"> Fair Trade<br>
+  <input type="checkbox" name="certs" value="B Corp"> B Corp<br><br>
+
+  <button id="checkBtn">Check My Product</button>
+  <div id="scoreBox">Eco Score: --</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
