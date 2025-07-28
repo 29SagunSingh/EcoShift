@@ -14,4 +14,4 @@ EcoShift is a Chrome extension + ML-powered dashboard that estimates the environ
 - Gamification roadmap (coming soon)
 
 ### 🧪 Try the deployed version:
-[EcoScore Predictor](https://eco-score-predictor.streamlit.app/)
+[EcoScore Predictor]([https://eco-score-predictor.streamlit.app/](https://ecoshiftproj.streamlit.app/))
